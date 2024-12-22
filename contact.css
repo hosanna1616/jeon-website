@@ -1,0 +1,258 @@
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+ 
+    text-decoration: none;
+}
+
+.header  {
+   
+    top:0;
+    left:0;
+    right:0;
+    background-color: #000;
+    padding: 4rem 12% 4rem;
+    background:rgba(0,0,0,0.368) ;
+
+    /*display:flex;*/
+    justify-content:space-between;
+    align-items:center;
+    /*z-index:5;*/
+
+
+}
+nav{
+    width: 1000px;
+}
+nav a{
+    padding-left: 26px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:19.8 rem;
+    color:rgb(227, 198, 203);
+    margin-left:3rem;
+    font-weight:900;
+   transition:0.3s ease;*/
+
+  
+   
+    /*
+   cursor:pointer;
+    
+}
+nav a:hover{
+    color:#000
+} 
+    
+
+.banner{
+    
+    display: flex;
+    justify-content: center;
+    height:100vh;/*jeon  ke header gar  kalut gar gebach*/
+    align-items: center;/*then yhen saderg mehala lay honech*/
+    position: relative;
+
+}
+video{ 
+
+    position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 150%;
+  object-fit:cover;
+  z-index:-1;
+  
+}
+.contacts h2{
+    margin-bottom: 3rem;
+    color:pink;
+   }
+   .contacts form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+margin: 5rem auto;
+text-align:center;
+}
+.contacts form .input-box{
+    
+    justify-content: center;
+    flex-wrap:wrap;
+
+}
+.contacts form  .input-box input,
+.contacts form textarea{
+    width: 100%;
+    padding: 2.5 rem;
+    font-size:1.8rem;
+    color:pink;
+    background:;
+border-radius:1rem;
+border:2px solid;
+margin: 1.5rem 0;
+resize:none;
+
+
+}
+ .contacts .input-group .inputbox{
+     background:rgb(148, 56, 56);
+     display: flex;
+    width: 100%;
+    border-radius:2rem;
+border:2px solid;
+margin: 1.5rem 0;
+resize:none;
+background-color:transparent;
+border: none;
+gap:12px
+} 
+.input-group-2 .btn{
+    background-color:;
+    border:none;
+    border-radius: 12px;
+    padding: 18px;
+}
+.contacts form .btn{
+    margin-top: 2rem;
+
+}
+.footer{
+    padding-top: 0;
+    position: relative;
+    bottom:0;
+    width:100%;
+    padding: 40px 0;
+    background-color:pink;
+}
+.footer .social{
+    text-align: center;
+    padding: 25px;
+    color:pink;
+}
+.footer .social a{
+    font-size:25px;
+    color:white;
+    border:2psx solid;
+    width:42px;
+    height:42px;
+    line-height:42px;
+    border-radius:50%;
+    margin: 0 10;
+    transition:0.3s ease-in-out;
+}
+.footer .social a:hover{
+    transform:scale(1.2)translatey(-10px);
+    background-color: pink;
+
+}
+.footer ul{
+margin-top: 0;
+padding: 0;
+font-size:18px;
+line-height:1.6;
+text-align: center;
+margin-bottom: 0;
+
+} 
+.footer ul a{
+color:rgb(114, 66, 74);
+transition:0.3 s ease;
+border-bottom:3rem solid transparent;
+
+
+}
+.footer ul a:hover{
+    text-decoration:underline;
+
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{
+    margin-top: 5px;
+    text-align: center;
+    color:rgb(114, 66, 74);
+}
+#hosi{
+   
+    color:rgb(114, 66, 74);
+}
+
+#selena{
+    padding-bottom: 32px;
+}
+#hosi:hover{
+background:pink;
+font-size:22px;
+}
+input::placeholder{
+color:rgb(148, 95, 104);
+}
+textarea::placeholder{
+    color:rgb(148, 95, 104);
+}
+
+#please{
+    font-size: 27px;
+}
+
+
+/*     *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+ 
+    text-decoration: none;
+}
+
+.header  {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: #000;
+    padding: 4rem 12% 4rem;
+    background:rgba(0,0,0,0.368) ;
+
+    /*display:flex;*/
+    justify-content:space-between;
+    align-items:center;
+    /*z-index:5;*/
+
+/*
+}
+nav{
+    width: 1000px;
+}
+nav a{
+    padding-left: 46px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:1.8 rem;
+    color:rgb(227, 198, 203);
+    margin-left:4rem;
+    font-weight:bold;
+  /*  transition:0.3s ease;*/
+  /*
+    border-bottom:3px solid transparent;
+    
+   cursor:pointer;
+    
+}
+nav a:hover{
+    color:#000
+} */
+
+nav a:hover{
+    background: pink;
+    box-shadow: pink;
+  border-radius: 55px;
+    padding: 12px;
+
+    color:#000;
+}
